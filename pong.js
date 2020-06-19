@@ -239,3 +239,17 @@ var iSlider = {
 
 iSlider.initSlides();
 iSlider.showSlides();
+
+//background comfort text
+
+const comfort = document.querySelectorAll('#comfort path');
+
+for(let i=0; i<comfort.length; i++){
+  console.log(`Letter ${i} is ${comfort[i].getTotalLength()}`);
+}
+
+const style = document.querySelectorAll('#style path');
+
+for(let i=0; i<style.length; i++){
+  console.log(`Letter ${i} is ${style[i].getTotalLength()}`);
+}
