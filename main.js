@@ -253,3 +253,27 @@ const style = document.querySelectorAll('#style path');
 for(let i=0; i<style.length; i++){
   console.log(`Letter ${i} is ${style[i].getTotalLength()}`);
 }
+
+const tennisclub = document.querySelectorAll('#tennisclub path');
+
+for(let i=0; i<tennisclub.length; i++){
+  console.log(`Letter ${i} is ${tennisclub[i].getTotalLength()}`);
+}
+
+const inspired = document.querySelectorAll('#inspired path');
+
+for(let i=0; i<inspired.length; i++){
+  console.log(`Letter ${i} is ${inspired[i].getTotalLength()}`);
+}
+
+const modern = document.querySelectorAll('#modern path');
+
+for(let i=0; i<modern.length; i++){
+  console.log(`Letter ${i} is ${modern[i].getTotalLength()}`);
+}
+
+const slides = document.querySelectorAll('#slides path');
+
+for(let i=0; i<slides.length; i++){
+  console.log(`Letter ${i} is ${slides[i].getTotalLength()}`);
+}
